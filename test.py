@@ -53,8 +53,7 @@ logger.info(log_msg)
 
 # Get model
 model = CLIPModel(opt)
-
-model.load_state_dict(torch.load(opt.model_path, map_location="cuda:0"), strict=True)
+model.load_state_dict(torch.load(opt.model_path), strict=True)
 
 model.cuda()
 model.eval()
