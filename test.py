@@ -35,7 +35,7 @@ DetectionTests = {
             # Due to the different shapes of images in the dataset, resizing is required during batch detection.
             'no_crop': True,
             },
-    'AIGIBench': {'dataroot': '/home/HDD/yjz/dataset/AIGIBench',
+    'AIGIBench': {'dataroot': '/home/HDD/yjz/dataset/AIGIBench/test',
             'no_resize': False,
             # Due to the different shapes of images in the dataset, resizing is required during batch detection.
             'no_crop': True,
