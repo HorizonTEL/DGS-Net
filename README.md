@@ -46,6 +46,7 @@ pip install -r requirements.txt
 ### 2.Getting datasets
 | Datasets          |    Paper                                                                                                             |    Url    |
 |:------:           |:---------:                                                                                                             |:---------:|
+| UniversalFakeDetect| Towards Universal Fake Image Detectors that Generalize Across Generative Models (CVPR 2023)                            | [Google Drive](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-) |
 | AIGCDetectBench   | PatchCraft: Exploring Texture Patch for Efficient AI-generated Image Detection                                         | [ModelScope](https://modelscope.cn/datasets/aemilia/AIGCDetectionBenchmark/tree/master/AIGCDetectionBenchMark) |
 | AIGIBench         | Is Artificial Intelligence Generated Image Detection a Solved Problem? (NeurIPS 2025)                                  | [Huggingface](https://huggingface.co/datasets/HorizonTEL/AIGIBench)/[Baidu Netdisk](https://pan.baidu.com/s/1XTwfXlfqkGxAwYLxXuZbfA?pwd=sm6v) |
 ### 3.Download Weights
