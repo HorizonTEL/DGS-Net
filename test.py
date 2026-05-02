@@ -42,7 +42,6 @@ DetectionTests = {
             },
 }
 
-# Set up logging
 logging.basicConfig(filename='log_test.log', level=logging.INFO, format='%(asctime)s %(message)s')
 logger = logging.getLogger()
 
@@ -51,7 +50,6 @@ log_msg = f'Model_path {opt.model_path}'
 print(log_msg)
 logger.info(log_msg)
 
-# Get model
 model = CLIPModel(opt)
 model.load_state_dict(torch.load(opt.model_path), strict=True)
 
