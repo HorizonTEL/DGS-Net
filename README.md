@@ -12,7 +12,7 @@
   </p>
 </div>
 
-<sup>1</sup>Nanjing University of Information Science and Technology
+<sup>1</sup>School of Computer Science, Nanjing University of Information Science and Technology
 <sup>2</sup>University of Macau
 <p align="center">
   <a href='https://github.com/HorizonTEL/DGS-Net'>
