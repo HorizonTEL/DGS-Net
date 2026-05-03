@@ -15,7 +15,7 @@
 <sup>1</sup>School of Computer Science, Nanjing University of Information Science and Technology
 <sup>2</sup>University of Macau
 <p align="center">
-  <a href='https://github.com/HorizonTEL/DGS-Net'>
+  <a href='https://horizontel.github.io/DGS-Net/'>
     <img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'>
   </a>
   <a href='https://arxiv.org/abs/2511.13108'>
