@@ -26,7 +26,8 @@
   </a>
 </p>
 </div>
-<img width="7109" height="2343" alt="backbone" src="https://github.com/user-attachments/assets/862bb444-2cbe-4a66-8e2b-cf072a6aee38" />
+<img width="7109" height="2343" alt="backbone" src="https://github.com/user-attachments/assets/938b6bcf-087e-4e8f-9600-f3947b3ae4c2" />
+
 
 ## 📰 News
 * [2026-05-01]🎉🎉🎉 DGS-Net is accepted by ICML 2026 Spotlight
