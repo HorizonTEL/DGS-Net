@@ -13,7 +13,7 @@ def validate(model, val_loader):
         # for img, text, label in val_loader:
         for img, label in val_loader:
             in_tens = img.cuda()
-            y_pred.extend(model(in_tens).sigmoid().flatten().tolist())
+            y_pred.extend(model(in_tens)[0].sigmoid().flatten().tolist())
             y_true.extend(label.flatten().tolist())
 
     y_true, y_pred = np.array(y_true), np.array(y_pred)
