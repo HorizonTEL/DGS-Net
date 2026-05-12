@@ -30,7 +30,7 @@ class CLIPModel(nn.Module):
             with torch.no_grad():
                 features = self.clip_model.encode_image(x)
                 img_logits = self.img_fc(features)
-                return img_logits
+                return img_logits, img_logits
 
         features = self.clip_model.encode_image(x)
         with torch.no_grad():
