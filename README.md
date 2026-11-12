@@ -35,6 +35,7 @@
 - [x] **Inference code**
 - [x] **Pretrained models**
 - [x] **Training code**
+- [x] **Training text**
 ## 🚀 Quick Start
 ### 1. Installation
 ```
@@ -68,6 +69,9 @@ stage 1: python train.py --name  5class-car-cat-chair-horse-sdv1.4 --dataroot /h
 stage 2: python train.py --name  5class-car-cat-chair-horse-sdv1.4 --dataroot /home/HDD/yjz/dataset/AIGIBench/train  --classes  car,cat,chair,horse,sdv1.4 --train_stage 1 --niter 1
 ```
 During the stage 2 of training, it is necessary to change the model_path of stage 1 in ```models/clip_models```: ```self.clip_model_frozen.load_state_dict(torch.load("/path/checkpoints/model_epoch_stage1.pth"), strict=True)```
+
+We have uploaded the text required for training: [Google Drive](https://drive.google.com/drive/folders/1VUq67vxmLEMdPpmLuUwslOYx4BSU7v-F?usp=drive_link)
+
 ## 📚 Citation 
 ```
 @article{yan2025dgs,
